@@ -1,0 +1,21 @@
+body {
+    background-color: white;
+    font-size: 20px;
+    text-align: center;
+}
+ul {
+    display:inline-block;
+    text-align:left;
+
+}
+
+img {
+    flex: 0;
+    width: 324px;
+    margin: 0 auto;
+}
+
+div {
+    display: flex;
+    flex-direction: column;
+}
