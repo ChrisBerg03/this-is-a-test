@@ -1,21 +1,51 @@
 body {
     background-color: white;
     font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
     text-align: center;
-}
-ul {
-    display:inline-block;
-    text-align:left;
 
+}
+
+ul {
+    display: inline-block;
+    margin: 8px auto;
+    text-align: left;
+}
+
+ol {
+    display: inline-block;
+    margin: 8px auto;
+    text-align: left;
 }
 
 img {
-    flex: 0;
     width: 324px;
-    margin: 0 auto;
+    margin: 16px auto;
+    border-color: palegreen;
+
 }
 
-div {
-    display: flex;
-    flex-direction: column;
+
+p {
+background-color: pink;
+border-radius: 24px;
+padding: 14px 16px;
+width: 75%;
+margin: 16px auto;
+text-align: left;
+
+}
+
+pre {
+    background-color:wheat;
+    border-radius: 24px;
+    padding: 16px 16px;
+    width: 75%;
+    margin: 16px auto;
+    text-align: left;
+}
+
+h1 {
+    background-color: red;
+    padding-bottom: 2px;
 }

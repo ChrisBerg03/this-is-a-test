@@ -1,11 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
+        <title>::: First webpage | Home:::</title>
         <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>First webpage</title>
+        <meta name="description" content="a guitar page about guitars" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta property="og:title" content="Best guitar in the world" />
+        <meta property="og:url" content="https://www.example.com" />
+        <meta property="og:type" content="article" />
+        <meta
+            property="og:image"
+            content="https://www.example.com/some-image.png"
+        />
+        <link
+            rel="icon"
+            type="image/png"
+            sizes="32x32"
+            href="assets/images/favicon-32x32.png"
+        />
+        <link
+            rel="icon"
+            type="image/png"
+            sizes="16x16"
+            href="assets/images/favicon-16x16.png"
+        />
         <link rel="stylesheet" href="styles.css" />
     </head>
+
     <body>
         <h1>hello</h1>
         <h2>hello</h2>
@@ -15,22 +36,68 @@
         <h6>hello</h6>
 
         <a href="https://www.google.com/" target="_blank">visit google</a>
-
         <p>
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Atque
             commodi consequuntur nobis incidunt ratione quos, saepe, nesciunt
             recusandae explicabo quisquam modi similique quibusdam officia
             quaerat adipisci labore molestias, alias dolor.
+            <strong
+                ><a href="mailto:chrisrberg03@gmail.com">Send me a mail</a>
+            </strong>
         </p>
-
+        <!-- square icon infront of list-->
+        <ul type="square">
+            <li>Home</li>
+            <li>About</li>
+            <li>Contact</li>
+        </ul>
+        <!-- hollow circle-->
+        <ul type="circle">
+            <li>Home</li>
+            <li>About</li>
+            <li>Contact</li>
+        </ul>
+        <!-- filled circle (default)-->
+        <ul type="disc">
+            <li>Home</li>
+            <li>About</li>
+            <li>Contact</li>
+        </ul>
+        <br />
+        <ol type="a">
+            <li>beer</li>
+            <li>fanta exotic</li>
+            <li>vodka</li>
+        </ol>
+        <ol type="I">
+            <li>beer</li>
+            <li>fanta exotic</li>
+            <li>vodka</li>
+        </ol>
+        <ol type="">
+            <li>beer</li>
+            <li>fanta exotic</li>
+            <li>vodka</li>
+        </ol>
+        <br />
         <div>
-            <ul>
-                <li>Home</li>
-                <li>About</li>
-                <li>Contact</li>
-            </ul>
-
-            <img src="images/thing.jpg" alt="A dope picture" />
+            <pre>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+          Soluta enim cum corrupti explicabo nam iure eveniet accusantium 
+          dolore dignissimos doloremque, est dolorem dolor! Unde sint 
+          laudantium, facilis architecto neque illo! Lorem ipsum, dolor 
+          sit amet consectetur adipisicing elit. Vel quis, error sint 
+          quibusdam sed debitis fugit illo cumque voluptatum culpa fugiat 
+          maiores molestias perferendis et obcaecati cupiditate eos perspiciatis id!
+          </pre
+            >
         </div>
+
+        <br />
+        <img
+            src="assets/images/thing.jpg"
+            alt="A dope picture"
+            title="a dope picture"
+        />
     </body>
 </html>
